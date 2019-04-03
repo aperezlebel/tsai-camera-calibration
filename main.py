@@ -81,7 +81,7 @@ K = mat_K(p)
 
 print('\nVector p :\n{}'.format(p))
 print('\nProjection matrix P :\n{}'.format(mat_P(p)))
-print('\nRésidus :\n{}'.format(residus[0]))
+print('\Residues :\n{}'.format(residus[0]))
 print('\nCalibration matrix K :\n{}\n'.format(K))
 print('\nPixel\'s base :\n{}\n'.format(K[0, 0]))
 print('\nPixel\'s height :\n{}\n'.format(K[1, 1]))
